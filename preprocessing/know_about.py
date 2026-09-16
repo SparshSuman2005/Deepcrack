@@ -2,8 +2,8 @@ import cv2
 import os
 import matplotlib.pyplot as plt
 
-image = cv2.imread(r"D:\DeepCrack\dataset\train_img\7Q3A9060-1.jpg")
-mask = cv2.imread(r"D:\DeepCrack\dataset\train_lab\7Q3A9060-1.png", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread(r"D:\DeepCrack\dataset\train_img\7Q3A9060-14.jpg")
+mask = cv2.imread(r"D:\DeepCrack\dataset\train_lab\7Q3A9060-14.png", cv2.IMREAD_GRAYSCALE)
 
 print("Image loaded:", image is not None)
 print("Mask loaded:", mask is not None)
